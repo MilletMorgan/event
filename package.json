@@ -1,0 +1,17 @@
+{
+  "name": "starter-vuejs-nestjs-mongodb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:MilletMorgan/starter-vuejs-nestjs-mongodb.git",
+  "author": "Millet Morgan <millet.morgan5@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "client",
+    "api"
+  ],
+  "scripts": {
+    "dev:api": "yarn workspace api start:dev",
+    "dev:client": "yarn workspace client dev"
+  }
+}
