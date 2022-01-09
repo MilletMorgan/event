@@ -3,11 +3,15 @@ This is a starter project to speed up the implementation of new projects under V
 
 ## Additional packages
 - Tailwind css 3.x
+- Vue 3 Notification
 
 ## Installation
 ```shell
 yarn
 ```
+
+## Configuration
+In `/api/.env` edit `DATABASE_USER`, `DATABASE_PASSWORD` and `DATABASE_HOST`.
 
 ## Run api
 ```shell
